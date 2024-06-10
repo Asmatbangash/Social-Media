@@ -1,0 +1,39 @@
+
+.main-container{
+    display: flex;
+}
+.header{
+    margin-left: 11rem;
+}
+
+.content{
+    width: 100%;
+}
+
+.h-icon{
+    margin: 0px 35px ;
+}
+
+.createPost{
+    width: 24rem;
+    margin: 3rem 19rem;
+ 
+}
+.Posts{
+    /* width: 100rem; */
+    margin: 3rem 22rem;
+
+}
+.VedioCard{
+    margin: 3rem 22rem;
+}
+.tags{
+    margin: 10px;
+    cursor: pointer;
+}
+
+@media(max-width: 960px ){
+    .header{ 
+        margin-left: 0px;
+    }
+}
